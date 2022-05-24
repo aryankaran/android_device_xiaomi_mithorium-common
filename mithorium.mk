@@ -7,6 +7,9 @@
 # Platform
 TARGET_BOARD_PLATFORM ?= msm8937
 
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 720
+
 ifeq ($(TARGET_BOARD_PLATFORM),msm8953)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.activity_recognition=msm8937 \
